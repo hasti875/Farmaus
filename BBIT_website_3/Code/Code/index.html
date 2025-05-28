@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Farmer's site</title>
+    <link rel="website icon" type="png" href="carrrooottt.png">
+</head>
+
+<body>
+    <header class="head">
+        <h1>Farmer's&nbsp;<i class="fa-solid fa-handshake"></i>&nbsp;Site</h1>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#service">Services</a>
+            <a href="#menu">Menu</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="side-bar">
+            <i class="fas fa-search" id="search"></i>
+            <i class="fas fa-user" id="user"></i>
+            <i class="fas fa-bars" id="bars"></i>
+        </div>
+        <form action="#" class="search-bar">
+            <input type="search" name="search" id="1" placeholder="Search Here">
+        </form>
+    </header>
+
+    <!----------------------------------Home Section----------------------------->
+    <section class="home" id="home">
+        <div class="home-content">
+            <div class="inner-content">
+                <h3>Welcome To Agri&nbsp;<i class="fa-solid fa-handshake"></i>&nbsp;Culture</h3>
+                <p>Agriculture is our wisest pursuit, because it will in the end contribute most to real wealth, good morals & happiness.</p>
+                 <button class="btn" onclick="window.location.href='#menu'">Menu</button> 
+                 
+         <!-- <button class="btn" onclick="window.location.href = 'index.html';">Menu</button> -->
+        </div>
+    </section>
+</body>
+<!---------------------------about section--------------->
+<section class="about" id="about">
+    <h4>About</h4>
+    <div class="about-sec">
+        <div class="img">
+            <img src="background1.png" alt="img">
+        </div>
+        <div class="about-content">
+            <h3>Agriculture Site</h3>
+            <p>For several years, farmers in India have had little liberty in choosing markets 
+                and purchasers for their produce. All states in the country, except three, 
+                degree that marketing and selling of farm produce must be directed through 
+                state-owned mandis, retail markets where mediators (middlemen) crush 
+                farmers to increase margins. According to research, mediators have become 
+                dominating buyers of the agricultural market, resulting them to take control 
+                over the plight of the farmers and gulping all the profits. The farmers work day 
+                and night expecting a good yield. They use a lot of financial resources lending 
+                money and buying fertilizers, seeds etc. So, they have the right to enjoy every 
+                rupee gained on their corp. In this context, we propose a system which brings 
+                farmers close to the retailers cutting the middlemen. The middlemen usually 
+                take up to 70% of the profits of farmers leaving them helpless. Our system 
+                consists of a  web application which will serve as a platform for 
+                farmer the growers and  customers to sell and buy their farm 
+                products. This system aims at giving a profitable price to farmers to their farm 
+                products cutting the middlemen. This allows the retailers or the customers to 
+                buy products from the farmers at a lower than the normal price. This system is 
+                used to farmer and user. Farmer uploads their product with details and buyers 
+                view these details and book that product with in a time 
+                </p>
+            <!-- <div class="about-inner">
+                <h5><i class="fas fa-arrow-alt-circle-right"></i>How it Works ?</h5>
+                <h5><i class="fas fa-arrow-alt-circle-right"></i>Policy</h5> -->
+                <!-- <h5><i class="fas fa-arrow-alt-circle-right"></i>Available 24X7</h5>
+                <h5><i class="fas fa-arrow-alt-circle-right"></i>Best Price</h5>
+                <h5><i class="fas fa-arrow-alt-circle-right"></i>Best Quality</h5> -->
+            <!-- </div>
+            <button class="btn">Read More</button>
+        </div> -->
+    </div>
+</section>
+<!-----------------------------services-------------------->
+<section class="service" id="service">
+    <h4>Services</h4>
+    <div class="service-content">
+        <div class="inner-box">
+            <img src="quality1.png" alt="">
+            <h2>Quality of  Delivery</h2>
+            <p>In our daily lives, we talk a lot about quality of almost everything be it a gadget, appliance, raw material, clothing, food etc. Every person seem to have his own idea of quality. It is difficult to agree on a single definition of quality, yet we can define different dimensions or parameters against which quality of something is measured. These dimensions include reliability, usability, ease of use, value for money and fit for purpose.</p>
+            <button class="btn">Read More</button>
+        </div>
+        <div class="inner-box">
+            <img src="online3.png" alt="">
+            <h2>Online Payment</h2>
+            <p>An online payment can be simply defined as the exchange of money online, or the payment for goods or services over the internet. In effect, it’s just a means of processing transactions electronically, with the use of the internet to facilitate direct database connection between the part that is selling the product and the part that is buying it. This involves processing data from a payment method chosen by the buyer, usually a credit or debit card, an e-wallet, or a checking account.</p>
+            <button class="btn">Read More</button>
+        </div>
+        <div class="inner-box">
+            <img src="freshproduct1.png" alt="">
+            <h2>Fresh Products</h2>
+            <p>Fresh food is food which has not been preserved and has not spoiled yet. For vegetables and fruits, this means that they have been recently harvested and treated properly postharvest; for meat, it has recently been slaughtered and butchered; for fish, it has been recently caught or harvested and kept cold.</p>
+            <button class="btn">Read More</button>
+        </div>
+    </div>
+</section>
+<!----------------------menu----------------------->
+<section class="newProducts" id="newProducts">
+    <h4>Add new products</h4>
+    <div class="incontent">
+    <div class="title">Fill the below details</div>
+    <div class="content">
+        <form action="#">
+            <div class="chooseProducts">
+                <label for="chooseProducts">Select a product at a time:</label>
+                <select name="chooseProducts" id="chooseProducts" required>
+                    <option value="Cauliflower">Cauliflower</option>
+                    <option value="Potato">Potato</option>
+                    <option value="Tomato">Tomato</option>
+                    <option value="Onion">Onion</option>
+                    <option value="Cabbage">Cabbage</option>
+                    <option value="Brocolli">Brocolli</option>
+                    <option value="Apples">Apples</option>
+                    <option value="Grapes">Grapes</option>
+                    <option value="Strawberry">Strawberry</option>
+                    <option value="Watermelon">Watermelon</option>
+                    <option value="Banana">Banana</option>
+                </select>
+            </div>
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Quantity of selected product</span>
+                    <input type="number" placeholder="Enter the quantity" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Price (per KG)</span>
+                    <input type="number" placeholder="Enter product price per Kilogram" required>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Click me to add this new product">
+                </div>
+        </form>
+    </div>
+    <div class="note">
+        <h1>NOTE: </h1>
+        <p>To add another products re-fill the form.</p>
+    </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <section class="menu" id="menu">
+    <h4>Our Menu</h4>
+    <div class="menu-content">
+        <div class="in-box">
+            <i class="far fa-heart"></i>
+            <img src="cucumber.png" alt="img" class="cucumber-icon">
+            <img src="pizza-v1.png" alt="">
+            <div class="in-content">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <h2>Cucumber</h2>
+                    <div class="price">Rs.$150.00</div>
+                    <button class="btn" id="cart-qty-plus"><i class="fas fa-plus-circle"></i></button>
+                    <button class="btn" id="cart-qty-minus"><i class="fas fa-minus-circle"></i></button>
+
+                </div>
+            </div>
+        </div>
+        <div class="in-box">
+            <i class="far fa-heart"></i>
+            <img src="pineapple.png" alt="img" class="pineapple-icon">
+            <img src="pizza-v2.png" alt="">
+            <div class="in-content">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <h2>Pineapple</h2>
+                    <div class="price">Rs.$150.00</div>
+                    <button class="btn" id="cart-qty-plus"><i class="fas fa-plus-circle"></i></button>
+                    <button class="btn" id="cart-qty-minus"><i class="fas fa-minus-circle"></i></button>
+
+                </div>
+            </div>
+        </div>
+        <div class="in-box">
+            <i class="far fa-heart"></i>
+            <img src="orange.png" alt="img" class="orange-icon">
+            <img src="pizza-v3.png" alt="">
+            <div class="in-content">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <h2>Orange</h2>
+                    <div class="price">Rs.$150.00</div>
+                    <button class="btn" id="cart-qty-plus"><i class="fas fa-plus-circle"></i></button>
+                    <button class="btn" id="cart-qty-minus"><i class="fas fa-minus-circle"></i></button>
+
+                </div>
+            </div>
+        </div>
+        <div class="in-box">
+            <i class="far fa-heart"></i>
+            <img src="strawberry.png" alt="img" class="strawberry-icon">
+            <img src="pizza-v4.png" alt="">
+            <div class="in-content">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <h2>Strawberry</h2>
+                    <div class="price">Rs.$150.00</div>
+                    <button class="btn" id="cart-qty-plus"><i class="fas fa-plus-circle"></i></button>
+                    <button class="btn" id="cart-qty-minus"><i class="fas fa-minus-circle"></i></button>
+
+                </div>
+            </div>
+        </div>
+        <div class="in-box">
+            <i class="far fa-heart"></i>
+            <img src="tomatoes.png" alt="img" class="tomatoes-icon">
+            <img src="pizza-v5.png" alt="">
+            <div class="in-content">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <h2>Tomato</h2>
+                    <div class="price">Rs.$150.00</div>
+                    <button class="btn" id="cart-qty-plus"><i class="fas fa-plus-circle"></i></button>
+                    <button class="btn" id="cart-qty-minus"><i class="fas fa-minus-circle"></i></button>
+
+                </div>
+            </div>
+        </div>
+        <div class="in-box">
+            <i class="far fa-heart"></i>
+            <img src="watermelon.png" alt="img" class="watermelon-icon">
+            <img src="pizza-v6.png" alt="">
+            <div class="in-content">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <h2>Water Melon</h2>
+                    <div class="price">Rs.$150.00</div>
+                    <button class="btn" id="cart-qty-plus"><i class="fas fa-plus-circle"></i></button>
+                    <button class="btn" id="cart-qty-minus"><i class="fas fa-minus-circle"></i></button>
+
+                </div>
+            </div>
+        </div>
+        <div class="in-box">
+            <i class="far fa-heart"></i>
+            <img src="carrrooottt.png" alt="img" class="carrrooottt-icon">
+            <img src="pizza-v7.png" alt="">
+            <div class="in-content">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <h2>Carrot</h2>
+                    <div class="price">Rs.$150.00</div>
+                    <button class="btn" id="cart-qty-plus"><i class="fas fa-plus-circle"></i></button>
+                    <button class="btn" id="cart-qty-minus"><i class="fas fa-minus-circle"></i></button>
+
+                </div>
+            </div>
+        </div>
+        <div class="in-box">
+            <i class="far fa-heart"></i>
+            <img src="onion.png" alt="img" class="onion-icon">
+            <img src="pizza-v8.png" alt="">
+            <div class="in-content">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <h2>onion</h2>
+                    <div class="price">Rs.$150.00</div>
+                    <button class="btn" id="cart-qty-plus"><i class="fas fa-plus-circle"></i></button>
+                    <button class="btn" id="cart-qty-minus"><i class="fas fa-minus-circle"></i></button>
+
+                </div>
+            </div>
+        </div>
+        <div class="in-box">
+            <i class="far fa-heart"></i>
+            <img src="green-beans.png" alt="img" class="green-beansss-icon">
+            <img src="pizza-v9.png" alt="">
+            <div class="in-content">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <h2>Green Beans</h2>
+                    <div class="price">Rs.$150.00</div>
+                    <button class="btn" id="cart-qty-plus"><i class="fas fa-plus-circle"></i></button>
+                    <button class="btn" id="cart-qty-minus"><i class="fas fa-minus-circle"></i></button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+<!------------------------------------Blog Section----------------->
+<!-- <section id="blog" class="blog">
+    <h4>Latest Blog</h4>
+    <div class="inner-blog">
+        <div class="blog-content">
+            <div class="in-blog">
+                <div class="im">
+                    <img src="blog-1.jpg" alt="img">
+                    <div class="in-blog-icon">
+                        <a href="#"><i class="fas fa-calendar"></i>20th June 2021</a>
+                        <a href="#"><i class="fas fa-user"></i>Admin</a>
+                    </div>
+
+                </div>
+                <div class="in-blog-content">
+                    <h2>Pizza is too Good.</h2>
+                    <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.</p>
+                    <button class="btn">Read More</button>
+                </div>
+            </div>
+        </div>
+        <div class="blog-content">
+            <div class="in-blog">
+                <div class="im">
+                    <img src="blog-2.jpg" alt="img">
+                    <div class="in-blog-icon">
+                        <a href="#"><i class="fas fa-calendar"></i>20th June 2021</a>
+                        <a href="#"><i class="fas fa-user"></i>Admin</a>
+                    </div>
+
+                </div>
+                <div class="in-blog-content">
+                    <h2>Amazing Pizza,Best Quality</h2>
+                    <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.</p>
+                    <button class="btn">Read More</button>
+                </div>
+            </div>
+        </div>
+        <div class="blog-content">
+            <div class="in-blog">
+                <div class="im">
+                    <img src="blog-3.jpg" alt="img">
+                    <div class="in-blog-icon">
+                        <a href="#"><i class="fas fa-calendar"></i>20th June 2021</a>
+                        <a href="#"><i class="fas fa-user"></i>Admin</a>
+                    </div>
+
+                </div>
+                <div class="in-blog-content">
+                    <h2>Yummy Pizza, We Loved It.</h2>
+                    <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.</p>
+                    <button class="btn">Read More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+<!-------------------------------------------contact Section-------------->
+<footer class="contact" id="contact">
+    <div class="contact-sec">
+        <div class="contact-inner">
+            <div class="contact-inner-col">
+                <img src="contact_us.png" alt="img" class="image">
+            </div>
+            <div class="contact-inner-col">
+                <h1>Contact US&nbsp;<i class="fas fa-paper-plane"></i></h1>
+                <p>500 Terry Francois Street, San Francisco, CA 94158 123-456-7890
+                </p>
+                <p>We Want To Hear From You, Write Us:</p>
+                <form action="#" id="" method="get">
+                    <input type="text" name="name" id=" " placeholder="Please Enter Your Name" required>
+                    <input type="email" name="name" id=" " placeholder="Please Enter Your Name" required>
+                    <input type="text" name="name" id=" " placeholder="Please Enter Your Name" required>
+                    <textarea name="" id="" cols="10" rows="8"></textarea>
+                    <button class="btn">Submit</button>
+                </form>
+            </div>
+        </div>
+        <!-- <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58893.91726126665!2d72.8237066014888!3d22.695889226543283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e5b060b242c55%3A0xc415d383e5344e08!2sNadiad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1641204268785!5m2!1sen!2sin"
+                width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div> -->
+        <div class="copyright">
+            <p>Design By&copy; Knowledge Place KP</p>
+            <div class="social">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-pinterest"></i>
+                <i class="fab fa-google-plus"></i>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-------------------------------java script ------------->
+<script>
+    let searchbtn = document.querySelector('#search');
+    let searchfrm = document.querySelector('.head .search-bar');
+
+    searchbtn.onclick = () => {
+        searchfrm.classList.toggle('active');
+        menu.classList.remove('active');
+    }
+
+    let menu = document.querySelector('.head .navbar');
+    document.querySelector('#bars').onclick = () => {
+        menu.classList.toggle('active');
+        searchfrm.classList.remove('active');
+
+    }
+    window.onscroll = () => {
+        menu.classList.remove('active');
+        searchfrm.classList.remove('active');
+    }
+</script>
+
+</html>
